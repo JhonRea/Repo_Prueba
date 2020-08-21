@@ -4,6 +4,7 @@
 
 install.packages("rwhatsapp")
 library(rwhatsapp)
+library(shiny)
 
 ### leer .txt con el chat, lo generan en whatsapp
 data<-rwa_read("industrial.txt")
